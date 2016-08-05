@@ -13,7 +13,7 @@ username = upper_name + name + digits
 Year, Month, Day = (1990,1,10)
 
 password = username[::-1]
-email = username+"@goplaypkm.xyz"
+email = username+"@email.xyz"
 public = False
 
 country = "US"
