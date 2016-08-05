@@ -1,0 +1,18 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "main": "info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
