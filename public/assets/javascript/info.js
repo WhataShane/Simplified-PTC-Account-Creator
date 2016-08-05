@@ -6,7 +6,7 @@ $(document).ready(function(){
         var myElement = document.querySelector(".pokemon");
         myElement.style.WebkitAnimationPlayState = "running";
         myElement.style.animationPlayState = "running";
-            $.post("http://goplaypkmn.xyz/please", function(response) {
+            $.post("http://localhost:8080", function(response) {
               myElement.style.WebkitAnimationPlayState = "paused";
               myElement.style.animationPlayState = "paused";
               $(".account1").append('<div>Username: '+response.Account.username+'</div>');
